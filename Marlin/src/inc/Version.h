@@ -25,7 +25,7 @@
  * Release version. Leave the Marlin version or apply a custom scheme.
  */
 #ifndef SHORT_BUILD_VERSION
-  #define SHORT_BUILD_VERSION "2.0.4.4"
+  #define SHORT_BUILD_VERSION "2.0.5.2"
 #endif
 
 /**
@@ -42,7 +42,11 @@
  * version was tagged.
  */
 #ifndef STRING_DISTRIBUTION_DATE
+<<<<<<< HEAD
   #define STRING_DISTRIBUTION_DATE "2020-02-27"
+=======
+  #define STRING_DISTRIBUTION_DATE "2020-03-24"
+>>>>>>> upstream/2.0.x
 #endif
 
 /**
@@ -52,7 +56,7 @@
  * to alert users to major changes.
  */
 
-#define MARLIN_HEX_VERSION 020004
+#define MARLIN_HEX_VERSION 020005
 #ifndef REQUIRED_CONFIGURATION_H_VERSION
   #define REQUIRED_CONFIGURATION_H_VERSION MARLIN_HEX_VERSION
 #endif
