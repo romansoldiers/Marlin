@@ -25,7 +25,7 @@
  * Release version. Leave the Marlin version or apply a custom scheme.
  */
 #ifndef SHORT_BUILD_VERSION
-  #define SHORT_BUILD_VERSION "2.0.5.2"
+  #define SHORT_BUILD_VERSION "2.0.5.3"
 #endif
 
 /**
@@ -42,11 +42,7 @@
  * version was tagged.
  */
 #ifndef STRING_DISTRIBUTION_DATE
-<<<<<<< HEAD
-  #define STRING_DISTRIBUTION_DATE "2020-02-27"
-=======
-  #define STRING_DISTRIBUTION_DATE "2020-03-24"
->>>>>>> upstream/2.0.x
+  #define STRING_DISTRIBUTION_DATE "2020-03-31"
 #endif
 
 /**
